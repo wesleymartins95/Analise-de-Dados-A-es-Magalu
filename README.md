@@ -10,7 +10,7 @@ Estilizei o grafico de Serie Temporal com uma cor mais escura e inseri o Grid, a
 
 ![Bilby Stampede](https://github.com/wesleymartins95/Analise-de-Dados-Acoes-Magalu/blob/main/Grafico%20Temporal.png)
 
-Observando o Gráfico podemos ver que a Abertura das Ações foi entre R$:25,00 e R$:26,00 e quase no final de janeiro ele teve uma alta, mas a partir daí ele começou a fechar por vários dias em baixa, e então, na metade do mês de julho teve uma pequena alta por curto período, e logo em seguida começa a declinar até o final de dezembro, fechando a ação em R$:7,22. 
+Observando o Gráfico podemos ver que a Abertura das Ações foi entre 25 e 26 reais e quase no final de janeiro ele teve uma alta, mas a partir daí ele começou a fechar por vários dias em baixa, e então, na metade do mês de julho teve uma pequena alta por curto período, e logo em seguida começa a declinar até o final de dezembro, fechando a ação em R$:7,22. 
 
 Podemos ver os 5 ultimos valores exatos de fechamentos neste arquivo em pdf:
 ![Bilby Stampede](https://github.com/wesleymartins95/Analise-de-Dados-Acoes-Magalu/blob/main/Ultimos%20dados%20A%C3%A7%C3%B5es.pdf)
@@ -24,9 +24,9 @@ Em seguida crio outra váriavel chamada MediaTendencia e uso a mesma coluna e as
 ![Bilby Stampede](https://github.com/wesleymartins95/Analise-de-Dados-Acoes-Magalu/blob/main/Grafico%20Media_Movel.png)
 
 Linha Azul: São os dados do Fechamento diário.   
-Linha Laranja: Média Móvel de 15 dias.
+Linha Laranja: Média Móvel de 15 dias.   
 Linha Verde: Média de Tendencia.   
-A MédiaMovel ela tira a oscilação, quanto mais você aumenta ela maior é a linha de Tendencia. Assim podemos ver a linha verde.  
+A MédiaMovel ela tira a oscilação, quanto mais você aumenta ela, maior é a linha de Tendencia. Como podemos ver a linha verde.  
 Usar a Média Móvel é importante para Analisar os comportamentos de uma Serie Temporal.
 
 
@@ -46,5 +46,5 @@ Quando a plotagem for feita e você passar o mouse por cima das linhas aparecer�
 A linha de código a seguir foi só para remover a opção de zoom: Grafico.update_layout( xaxis_rangeslider_visible=False)
 
 ![Bilby Stampede](https://github.com/wesleymartins95/Analise-de-Dados-Acoes-Magalu/blob/main/Grafico%20Candle.png)
-
+http://127.0.0.1:62197/
 Podemos ver que a cor dominate é o vermelho, então chegamos a conclusão que as Ações da Magalu tiveram muitas baixas.
